@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C5351DB1DAC1CC10060B2AD /* OpenWeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5351DA1DAC1CC10060B2AD /* OpenWeatherManager.m */; };
+		5C5351DE1DAC1FD80060B2AD /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5351DD1DAC1FD80060B2AD /* WeatherModel.m */; };
+		5C575B131DABE2A700096B9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C575B121DABE2A700096B9F /* main.m */; };
+		5C575B381DABE63700096B9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C575B2B1DABE63700096B9F /* AppDelegate.m */; };
+		5C575B3A1DABE63700096B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C575B321DABE63700096B9F /* LaunchScreen.storyboard */; };
+		5C575B3B1DABE63700096B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C575B341DABE63700096B9F /* Main.storyboard */; };
+		5C575B3C1DABE63700096B9F /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C575B371DABE63700096B9F /* FontAwesome.otf */; };
+		5C575B401DABE67800096B9F /* SplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C575B3F1DABE67800096B9F /* SplashVC.m */; };
+		5C575B431DABE68B00096B9F /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C575B421DABE68B00096B9F /* MainVC.m */; };
+		5C575B541DABE92100096B9F /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 5C575B531DABE92100096B9F /* Icons */; };
+		5C575B561DABF9BB00096B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C575B551DABF9BB00096B9F /* Assets.xcassets */; };
+		5C575B5A1DAC014A00096B9F /* WeatherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C575B591DAC014A00096B9F /* WeatherVC.m */; };
+		5C575B5C1DAC01E600096B9F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C575B5B1DAC01E600096B9F /* MapKit.framework */; };
+		5C575B5E1DAC06C500096B9F /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C575B5D1DAC06C400096B9F /* weathericons-regular-webfont.ttf */; };
+		5CB605361DAC0ED3009D71F1 /* MainTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB605351DAC0ED3009D71F1 /* MainTVC.m */; };
+		C2E03CBF1859CDED13B28DCC /* Pods_Grossum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB962563993D7AAF46CFE4E /* Pods_Grossum.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A3C37FD6A24FFCAFB59C26F /* Pods-Grossum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grossum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grossum/Pods-Grossum.release.xcconfig"; sourceTree = "<group>"; };
+		5C5351D91DAC1CC10060B2AD /* OpenWeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWeatherManager.h; sourceTree = "<group>"; };
+		5C5351DA1DAC1CC10060B2AD /* OpenWeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWeatherManager.m; sourceTree = "<group>"; };
+		5C5351DC1DAC1FD80060B2AD /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		5C5351DD1DAC1FD80060B2AD /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		5C575B0E1DABE2A700096B9F /* Grossum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grossum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C575B121DABE2A700096B9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C575B221DABE2A700096B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C575B2A1DABE63700096B9F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C575B2B1DABE63700096B9F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C575B331DABE63700096B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C575B351DABE63700096B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C575B371DABE63700096B9F /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		5C575B3D1DABE65100096B9F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5C575B3E1DABE67800096B9F /* SplashVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashVC.h; sourceTree = "<group>"; };
+		5C575B3F1DABE67800096B9F /* SplashVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashVC.m; sourceTree = "<group>"; };
+		5C575B411DABE68B00096B9F /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		5C575B421DABE68B00096B9F /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		5C575B531DABE92100096B9F /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
+		5C575B551DABF9BB00096B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C575B581DAC014A00096B9F /* WeatherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherVC.h; sourceTree = "<group>"; };
+		5C575B591DAC014A00096B9F /* WeatherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherVC.m; sourceTree = "<group>"; };
+		5C575B5B1DAC01E600096B9F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5C575B5D1DAC06C400096B9F /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
+		5CB605341DAC0ED3009D71F1 /* MainTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTVC.h; sourceTree = "<group>"; };
+		5CB605351DAC0ED3009D71F1 /* MainTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTVC.m; sourceTree = "<group>"; };
+		6DB962563993D7AAF46CFE4E /* Pods_Grossum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grossum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F345CF007C4E84524AA5D9 /* Pods-Grossum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grossum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grossum/Pods-Grossum.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C575B0B1DABE2A700096B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C575B5C1DAC01E600096B9F /* MapKit.framework in Frameworks */,
+				C2E03CBF1859CDED13B28DCC /* Pods_Grossum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434CBD8B0F507DE445DFEE41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F345CF007C4E84524AA5D9 /* Pods-Grossum.debug.xcconfig */,
+				1A3C37FD6A24FFCAFB59C26F /* Pods-Grossum.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C5351D71DAC1CB10060B2AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5C5351D81DAC1CB10060B2AD /* OpenWeatherManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5C5351D81DAC1CB10060B2AD /* OpenWeatherManager */ = {
+			isa = PBXGroup;
+			children = (
+				5C5351D91DAC1CC10060B2AD /* OpenWeatherManager.h */,
+				5C5351DA1DAC1CC10060B2AD /* OpenWeatherManager.m */,
+			);
+			path = OpenWeatherManager;
+			sourceTree = "<group>";
+		};
+		5C575B051DABE2A700096B9F = {
+			isa = PBXGroup;
+			children = (
+				5C575B101DABE2A700096B9F /* Grossum */,
+				5C575B0F1DABE2A700096B9F /* Products */,
+				434CBD8B0F507DE445DFEE41 /* Pods */,
+				60AE1444B951574D02C6D644 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C575B0F1DABE2A700096B9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B0E1DABE2A700096B9F /* Grossum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C575B101DABE2A700096B9F /* Grossum */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B281DABE63700096B9F /* Classes */,
+				5C575B301DABE63700096B9F /* Resources */,
+				5C575B221DABE2A700096B9F /* Info.plist */,
+				5C575B111DABE2A700096B9F /* Supporting Files */,
+			);
+			path = Grossum;
+			sourceTree = "<group>";
+		};
+		5C575B111DABE2A700096B9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B121DABE2A700096B9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C575B281DABE63700096B9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C5351D71DAC1CB10060B2AD /* Managers */,
+				5C575B441DABE69B00096B9F /* DAO */,
+				5C575B291DABE63700096B9F /* AppDelegate */,
+				5C575B2C1DABE63700096B9F /* Constants */,
+				5C575B2D1DABE63700096B9F /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5C575B291DABE63700096B9F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B2A1DABE63700096B9F /* AppDelegate.h */,
+				5C575B2B1DABE63700096B9F /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5C575B2C1DABE63700096B9F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B3D1DABE65100096B9F /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5C575B2D1DABE63700096B9F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B571DAC012300096B9F /* Weather */,
+				5C575B2E1DABE63700096B9F /* Main */,
+				5C575B2F1DABE63700096B9F /* Splash */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5C575B2E1DABE63700096B9F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B411DABE68B00096B9F /* MainVC.h */,
+				5C575B421DABE68B00096B9F /* MainVC.m */,
+				5CB605341DAC0ED3009D71F1 /* MainTVC.h */,
+				5CB605351DAC0ED3009D71F1 /* MainTVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5C575B2F1DABE63700096B9F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B3E1DABE67800096B9F /* SplashVC.h */,
+				5C575B3F1DABE67800096B9F /* SplashVC.m */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		5C575B301DABE63700096B9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B551DABF9BB00096B9F /* Assets.xcassets */,
+				5C575B531DABE92100096B9F /* Icons */,
+				5C575B321DABE63700096B9F /* LaunchScreen.storyboard */,
+				5C575B341DABE63700096B9F /* Main.storyboard */,
+				5C575B361DABE63700096B9F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5C575B361DABE63700096B9F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B5D1DAC06C400096B9F /* weathericons-regular-webfont.ttf */,
+				5C575B371DABE63700096B9F /* FontAwesome.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5C575B441DABE69B00096B9F /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B451DABE6AB00096B9F /* Models */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		5C575B451DABE6AB00096B9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C5351DC1DAC1FD80060B2AD /* WeatherModel.h */,
+				5C5351DD1DAC1FD80060B2AD /* WeatherModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C575B571DAC012300096B9F /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B581DAC014A00096B9F /* WeatherVC.h */,
+				5C575B591DAC014A00096B9F /* WeatherVC.m */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		60AE1444B951574D02C6D644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C575B5B1DAC01E600096B9F /* MapKit.framework */,
+				6DB962563993D7AAF46CFE4E /* Pods_Grossum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C575B0D1DABE2A700096B9F /* Grossum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C575B251DABE2A700096B9F /* Build configuration list for PBXNativeTarget "Grossum" */;
+			buildPhases = (
+				6F8D72216F70DB7EB345421C /* 📦 Check Pods Manifest.lock */,
+				5C575B0A1DABE2A700096B9F /* Sources */,
+				5C575B0B1DABE2A700096B9F /* Frameworks */,
+				5C575B0C1DABE2A700096B9F /* Resources */,
+				52A7D32F556C6F8008AEC3AF /* 📦 Embed Pods Frameworks */,
+				F3F9C40D08B2AEFA52129330 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grossum;
+			productName = Grossum;
+			productReference = 5C575B0E1DABE2A700096B9F /* Grossum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C575B061DABE2A700096B9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alexandr Chernyy";
+				TargetAttributes = {
+					5C575B0D1DABE2A700096B9F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 82EG8LG7YH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C575B091DABE2A700096B9F /* Build configuration list for PBXProject "Grossum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C575B051DABE2A700096B9F;
+			productRefGroup = 5C575B0F1DABE2A700096B9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C575B0D1DABE2A700096B9F /* Grossum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C575B0C1DABE2A700096B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C575B3B1DABE63700096B9F /* Main.storyboard in Resources */,
+				5C575B541DABE92100096B9F /* Icons in Resources */,
+				5C575B5E1DAC06C500096B9F /* weathericons-regular-webfont.ttf in Resources */,
+				5C575B3C1DABE63700096B9F /* FontAwesome.otf in Resources */,
+				5C575B3A1DABE63700096B9F /* LaunchScreen.storyboard in Resources */,
+				5C575B561DABF9BB00096B9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52A7D32F556C6F8008AEC3AF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grossum/Pods-Grossum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8D72216F70DB7EB345421C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F9C40D08B2AEFA52129330 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grossum/Pods-Grossum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C575B0A1DABE2A700096B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C575B381DABE63700096B9F /* AppDelegate.m in Sources */,
+				5C575B431DABE68B00096B9F /* MainVC.m in Sources */,
+				5C5351DE1DAC1FD80060B2AD /* WeatherModel.m in Sources */,
+				5C575B401DABE67800096B9F /* SplashVC.m in Sources */,
+				5C575B5A1DAC014A00096B9F /* WeatherVC.m in Sources */,
+				5CB605361DAC0ED3009D71F1 /* MainTVC.m in Sources */,
+				5C5351DB1DAC1CC10060B2AD /* OpenWeatherManager.m in Sources */,
+				5C575B131DABE2A700096B9F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C575B321DABE63700096B9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C575B331DABE63700096B9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5C575B341DABE63700096B9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C575B351DABE63700096B9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C575B231DABE2A700096B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C575B241DABE2A700096B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C575B261DABE2A700096B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F345CF007C4E84524AA5D9 /* Pods-Grossum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82EG8LG7YH;
+				INFOPLIST_FILE = Grossum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.Grossum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C575B271DABE2A700096B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3C37FD6A24FFCAFB59C26F /* Pods-Grossum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82EG8LG7YH;
+				INFOPLIST_FILE = Grossum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.Grossum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C575B091DABE2A700096B9F /* Build configuration list for PBXProject "Grossum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C575B231DABE2A700096B9F /* Debug */,
+				5C575B241DABE2A700096B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C575B251DABE2A700096B9F /* Build configuration list for PBXNativeTarget "Grossum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C575B261DABE2A700096B9F /* Debug */,
+				5C575B271DABE2A700096B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C575B061DABE2A700096B9F /* Project object */;
+}
